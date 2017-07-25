@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonBar">
+        <!--左边按钮是否可见|背景-->
+        <attr name="left_btn_visible" format="boolean" />
+        <attr name="left_btn_src" format="color|reference" />
+        <!--左边文字是否可见|文字|文字大小-->
+        <attr name="left_tv_visible" format="boolean" />
+        <attr name="left_text" format="string" />
+        <attr name="left_tv_size" format="dimension" />
+        <!--右边按钮是否可见|背景-->
+        <attr name="right_btn_visible" format="boolean" />
+        <attr name="right_btn_src" format="boolean" />
+        <!--右边文字是否可见|文字|文字大小-->
+        <attr name="right_tv_visible" format="boolean" />
+        <attr name="right_text" format="string" />
+        <attr name="right_tv_size" format="dimension" />
+        <!--标题文字-->
+        <attr name="center_text" format="string" />
+        <attr name="center_title_size" format="dimension" />
+        <!--背景颜色-->
+        <attr name="commonBar_background" format="color|reference" />
+        <!--字体颜色-->
+        <attr name="commonBar_textColor" format="color|reference" />
+    </declare-styleable>
+</resources>

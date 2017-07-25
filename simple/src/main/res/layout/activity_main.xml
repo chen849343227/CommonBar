@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b4b4b4"
+    tools:context="com.chen.commontopbar.MainActivity">
+
+    <com.chen.topbar.CommonBar
+        android:id="@+id/commonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:center_text="菜单"
+        app:commonBar_background="#ffffff"
+        app:commonBar_textColor="#212121"
+        app:left_btn_src="@mipmap/ic_turn_gray"
+        app:right_text="菜单" />
+
+
+    <com.chen.topbar.CommonBar
+        android:layout_marginTop="20dp"
+        android:id="@+id/commonBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:center_text="菜单"
+        app:commonBar_background="#ffffff"
+        app:commonBar_textColor="#212121"
+        app:left_text="返回"
+        app:right_text="菜单" />
+
+
+</LinearLayout>
