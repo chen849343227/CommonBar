@@ -288,6 +288,14 @@ public class CommonBar extends RelativeLayout {
             tv_title.setMaxEms(5);
             tv_title.setEllipsize(TextUtils.TruncateAt.END);
             addView(tv_title, rlp);
+            tv_title.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (commonBarOnClickListener != null) {
+                        commonBarOnClickListener.onCenterClick();
+                    }
+                }
+            });
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
             setBackground(commonBar_background);

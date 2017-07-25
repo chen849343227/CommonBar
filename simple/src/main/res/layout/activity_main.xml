@@ -9,24 +9,41 @@
     tools:context="com.chen.commonbar.MainActivity">
 
     <com.chen.topbar.CommonBar
+        android:id="@+id/commonBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:center_text="菜单"
+        app:center_text="test"
         app:commonBar_background="#ffffff"
         app:commonBar_textColor="#212121"
         app:left_btn_src="@mipmap/ic_turn_gray"
-        app:right_text="菜单" />
-
+        app:right_text="menu" />
 
     <com.chen.topbar.CommonBar
+        android:id="@+id/commonBar1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        app:center_text="菜单"
         app:commonBar_background="#ffffff"
         app:commonBar_textColor="#212121"
-        app:left_text="返回"
-        app:right_text="菜单" />
+        app:left_text="back" />
+
+    <com.chen.topbar.CommonBar
+        android:id="@+id/commonBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:center_text="test"
+        app:commonBar_background="#ffffff"
+        app:commonBar_textColor="#212121" />
+
+    <com.chen.topbar.CommonBar
+        android:id="@+id/commonBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:commonBar_background="#ffffff"
+        app:commonBar_textColor="#212121"
+        app:right_text="menu" />
 
 
 </LinearLayout>
