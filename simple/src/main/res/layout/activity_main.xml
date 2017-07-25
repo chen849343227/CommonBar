@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#b4b4b4"
+    android:orientation="vertical"
     tools:context="com.chen.commontopbar.MainActivity">
 
     <com.chen.topbar.CommonBar
-        android:id="@+id/commonBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:center_text="菜单"
@@ -20,10 +19,9 @@
 
 
     <com.chen.topbar.CommonBar
-        android:layout_marginTop="20dp"
-        android:id="@+id/commonBar1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         app:center_text="菜单"
         app:commonBar_background="#ffffff"
         app:commonBar_textColor="#212121"
