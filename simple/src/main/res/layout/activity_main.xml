@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#b4b4b4"
     android:orientation="vertical"
-    tools:context="com.chen.commontopbar.MainActivity">
+    tools:context="com.chen.commonbar.MainActivity">
 
     <com.chen.topbar.CommonBar
         android:layout_width="match_parent"

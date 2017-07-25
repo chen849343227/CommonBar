@@ -1,4 +1,4 @@
-package com.chen.commontopbar;
+package com.chen.commonbar;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.chen.commontopbar;
+package com.chen.commonbar;
 
 import org.junit.Test;
 
